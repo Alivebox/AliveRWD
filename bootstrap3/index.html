@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+		 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+         <title>BootStrap 3</title>
+		 <link rel="stylesheet" href="css/bootstrap.css">
+		 <link rel="stylesheet" href="css/style.css">
+<body>
+	<!--xs (phones), sm (tablets), md (desktops), and lg (larger desktops)-->
+	<div class="container">
+		<h1>All columns should sum 12</h1>
+		<br>
+		<div class="row">
+			<div class="col-md-4 my_background">4 columns(col-md-4)</div>
+			<div class="col-md-4 my_background">4 columns(col-md-4)</div>
+			<div class="col-md-4 my_background">4 columns(col-md-4)</div>
+		</div>
+		<br>
+		<h1>Two columns and two nested columns</h1>
+		<br>
+		<div class="row">
+			<div class="col-md-8 my_background">
+			  8 columns(col-md-8)
+			  <div class="row">
+				<div class="col-md-6 my_nested_background">6 columns(col-md-6)</div>
+				<div class="col-md-6 my_nested_background">6 columns(col-md-6)</div>
+			  </div>
+			</div>
+			
+			<div class="col-md-4 my_background">4 columns(col-md-4)</div>
+		</div>
+		
+		<h1>Mixed Mobile and desktop</h1>
+		<br>
+		<div class="row">
+			<div class="col-xs-12 col-md-8 my_background">col-xs-12 col-md-8</div>
+			<div class="col-xs-6 col-md-4 my_nested_background">col-xs-6 col-md-4</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-xs-6 col-md-4 my_background">.col-xs-6 .col-md-4</div>
+			<div class="col-xs-6 col-md-4 my_background">.col-xs-6 .col-md-4</div>
+			<div class="col-xs-6 col-md-4 my_nested_background">.col-xs-6 .col-md-4</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-xs-6 my_background">.col-xs-6</div>
+			<div class="col-xs-6 my_background">.col-xs-6</div>
+		</div>
+		
+		<h1>Mixed: mobile, tablet, and desktop</h1>
+		<br>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-lg-8 my_background">.col-xs-12 .col-sm-6 .col-lg-8</div>
+			<div class="col-xs-6 col-lg-4 my_nested_background">.col-xs-6 .col-lg-4</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-xs-6 col-sm-4 my_background">.col-xs-6 .col-sm-4</div>
+			<div class="col-xs-6 col-sm-4 my_background">.col-xs-6 .col-sm-4</div>
+			<div class="col-xs-6 col-sm-4 my_background">.col-xs-6 .col-sm-4</div>
+		</div>
+		
+		</br>
+		</br>
+		<a class="btn btn-lg btn-success" href="navBar.html">See navigation bar example</a>
+		
+	</div>
+</body>
+</html>

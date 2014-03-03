@@ -1,0 +1,35 @@
+/*Customize your site depends of the browser */
+
+/*Apply the style if IE < 9*/
+.lt-ie9 {
+    background-color:#00FF00;
+}
+
+.lt-ff25 {
+	background-color:#5F91FC;
+}
+
+.chrome{
+  background-color:#AAC5FF; 
+}
+
+.andriod{
+  background-color:#AAC5FF; 
+}
+
+
+/* code specific to VIEWPORT > 800 ### In JS you can do this head.screen.innerHeight < 800*/
+.lt-800 {
+    background-color:#7D7B7B; 
+}
+
+/* code specific to VIEWPORT > 800*/
+.gt-800 {
+    background-color:#975151;
+}
+
+body {
+	font-weight: 900;
+	color: black;
+	font-size: 27px;
+}

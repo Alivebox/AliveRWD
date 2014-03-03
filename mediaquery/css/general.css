@@ -1,0 +1,38 @@
+@media screen and (min-width: 0px) {
+	#myFirstDiv {
+		width:500px;
+		margin:0px auto;
+		height:100px;
+		background: #D5E000;
+		font-size:27px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	#myFirstDiv {
+		width:800px;
+		margin:0px auto;
+		height:100px;
+		background: #D5E000;
+		font-size:27px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#myFirstDiv {
+		width:1200px;
+		margin:0px auto;
+		height:100px;
+		background: #D5E000;
+		font-size:27px;
+	}
+}
+
+#first_text{
+	position: fixed;
+	left: 50%;
+	margin-left: -100px;
+	font-weight: 900;
+	color: green;
+	padding-top: 30px;
+}
